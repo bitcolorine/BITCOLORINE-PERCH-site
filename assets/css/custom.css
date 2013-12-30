@@ -1,3 +1,17 @@
+/* Colors
+
+
+Yellow: rgb(237, 218, 6)
+HEX:#edda06
+purple: rgb(80, 26, 178)
+HEX: #501AB2
+
+
+
+
+*/
+
+
 body {
 
 	background-image: url(../img/background.jpg);
@@ -8,9 +22,117 @@ body {
 
 
 
-.title-area h1 {
+/****** Navigation ******/
 
-	font-family: 'Londrina Shadow' 'Arial Black' 'Arial', 'Sans-serif';
-	color: 	white;
+.contain-to-grid {
+	background: none;
+
 
 }
+
+/* Site name **/
+
+.top-bar .name h1 {
+font-family: 'Londrina Shadow', 'Arial Black', Arial, 'sans-serif';
+color: #FFF;
+letter-spacing: 7px;
+line-height: 45px;
+font-size: 2.5625rem;
+margin-top: 10px;
+text-transform: uppercase;
+}
+
+.top-bar .name h2 {
+font-size: 1.15em;
+color: rgb(237, 218, 6);
+color: #edda06;
+
+}
+
+.top-bar  {
+background: none;
+height: 50px;
+}
+.top-bar-section ul {
+
+	background: none;
+}
+
+.top-bar-section li a:not(.button) {
+padding: 0 15px;
+line-height: 45px;
+background: none;
+text-transform: uppercase;
+}
+
+/****** Hero ******/
+
+.headline {
+margin-top: 80px;
+background: #EDDA06;
+margin-bottom: 25px;
+padding: 30px;
+}
+
+.luisa {
+	background-color: #000;
+	background: url('main-illustration.png') no-repeat;
+	
+}
+
+
+.slogan {
+
+	font-family: 'Londrina Solid', 'Arial Black', Arial, 'sans-serif';
+	font-size: 1.61875rem;
+}
+
+
+
+
+
+/***** Footer *****/
+
+.foot {
+
+	font-family: 'Londrina solid', Arial, 'Sans-serif';
+	font-size: 1em;
+	color:#EDDA06;
+	letter-spacing: 1px;
+	margin-top: 20px;
+
+}
+
+.social {
+
+	font-size: 3em;
+}
+
+/***** Dynamic content *****/
+
+
+
+
+/****** Mailing *****/
+
+.mailing {
+	background-color: rgb(80, 26, 178);
+	background-color:#501AB2;
+	font-family: Courier, Times, Serif;
+	color: white;	
+}
+
+.mailing p {
+	margin-top: 15px;
+}
+
+
+/****** Main Content *****/
+
+.main-content {
+
+	margin-top: 90px;
+
+
+}
+
