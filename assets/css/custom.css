@@ -14,7 +14,12 @@ Gray Black: #3F3D3D;
 
 body {
 	background-color: #fafafa;
-	/*background-image: url(../img/background.jpg);*/
+	background-image: url(../img/collage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
 }
 
 
@@ -25,7 +30,8 @@ body {
 /****** Navigation ******/
 
 .contain-to-grid {
-	background: none;
+	background: #fff;
+
 
 
 }
@@ -36,9 +42,9 @@ body {
 font-family: 'Londrina Shadow', 'Arial Black', Arial, 'sans-serif';
 letter-spacing: 7px;
 line-height: 45px;
-font-size: 3.8rem;
+font-size: 2.8rem;
 margin-top: 20px;
-margin-bottom: 10px;
+margin-bottom: 5px;
 text-transform: uppercase;
 /*background-color: #3F3D3D;
 border-radius: 10px;*/
@@ -49,20 +55,20 @@ font-weight: normal;
 color: #3F3D3D;
 width: 50%;
 display: block;
-padding: 0 15px;
+
 }
 
 .top-bar .name h2 {
 font-size: 1.15em;
 color: rgb(237, 218, 6);
-color: #3F3D3D;
+color: #000;
 text-align: center;
 
 }
 
 .top-bar  {
-background: none;
-height: 40px;
+background: #fff;
+height: 95px;
 }
 .top-bar-section ul {
 
@@ -79,14 +85,19 @@ text-transform: uppercase;
 
 .top-bar-section ul li > a {
 
-color: #3F3D3D;
+color: #000;
 
+}
+
+.subtitle {
+	display:block;
+	width: 100%;
 }
 
 /****** Hero ******/
 
 .hero {
-	/*background-color: #edda06;*/
+	background-color: #fff;
 	padding-left: 20px;
 	padding-top: 20px;
 }
@@ -100,7 +111,7 @@ background: none;
 }
 
 .luisa {
-background-color: #fff;
+/*background-color: #fff;
 background: url(main-illustration.png) no-repeat;
 -webkit-background-size: cover;
 -moz-background-size:cover;
@@ -112,12 +123,12 @@ margin-top: 0;
 padding-top:25px;
 padding-right: 15px;
 padding-right: 0px;
-border: 2px dotted #501AB2 ;
+border: 2px dotted #501AB2 ;*/
 }
 
-.luisa2 {
-margin-top: 80px;	
-text-align: right;
+.luisa2 h2 {
+	font-family: 'Londrina Shadow', 'Arial Black', Arial, Sans-serif;
+	text-align: right;
 /*color: #501AB2;*/
 padding-right: 10px;
 
@@ -132,7 +143,14 @@ padding-right: 10px;
 	
 }
 
+/* Dynamic content */
 
+.dynamic {
+
+
+margin-bottom: 20px;
+
+}
 
 
 
